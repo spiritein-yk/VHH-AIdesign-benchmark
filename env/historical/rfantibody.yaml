@@ -1,0 +1,8 @@
+benchmark_target: PDGFRB
+software: RFAntibody
+commit: 8fe311415754e0276d1a39c87c57e69c88927a2d
+stages:
+- backbone_generation
+entry_point: rfdiffusion
+runtime:
+  environment_manager: venv

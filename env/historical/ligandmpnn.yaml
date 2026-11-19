@@ -1,0 +1,15 @@
+benchmark_target: PDGFRB
+software: LigandMPNN
+stages:
+- side_chain_packing
+entry_point: pack_only_batch.py
+runtime:
+  source_backbones:
+  - BoltzGen
+  - PPIFlow
+  pytorch: 2.8.0+cu128
+  pytorch_cuda_build: '12.8'
+checkpoints:
+  side_chain_packing:
+    file: ligandmpnn_sc_v_32_002_16.pt
+    sha256: 799a9de6c1c72bb0c7ceb37998391a6fd0e3e21cb42928ee31a28313a3b1b46a

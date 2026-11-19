@@ -1,0 +1,12 @@
+benchmark_target: PDGFRB
+software: RosettaScripts
+version: release-371
+stages:
+- interface_scoring
+runtime:
+  openmpi: 3.1.6
+  dependencies:
+  - DAlphaBall
+  - PSIPRED
+scoring_protocol:
+  file: score/rosetta/score.xml

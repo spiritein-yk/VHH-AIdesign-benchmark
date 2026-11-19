@@ -1,0 +1,47 @@
+entities:
+  - file:
+      path: ../common/IL7RA.pdb
+      include:
+        - chain:
+            id: B
+      binding_types:
+        - chain:
+            id: B
+            binding: 42,43,64,65,66,123,176,177
+  - file:
+      path: ../common/3EAK_A.pdb
+      include:
+        - chain:
+            id: A
+      design:
+        - chain:
+            id: A
+            res_index: 26..36,54..61,100..117
+      structure_groups:
+        - group:
+            id: A
+            visibility: 2
+        - group:
+            id: A
+            visibility: 0
+            res_index: 26..36,54..61,100..117
+      exclude:
+        - chain:
+            id: A
+            res_index: 26..36,54..61,100..117
+      design_insertions:
+        - insertion:
+            id: A
+            res_index: 26
+            num_residues: 8..12
+        - insertion:
+            id: A
+            res_index: 54
+            num_residues: 5..9
+        - insertion:
+            id: A
+            res_index: 100
+            num_residues: 11..24
+      reset_res_index:
+        - chain:
+            id: A

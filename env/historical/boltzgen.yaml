@@ -1,0 +1,21 @@
+benchmark_target: PDGFRB
+software: BoltzGen
+commit: a3149cf18eeb58648d1abbb27539bd73f746cdda
+stages:
+- backbone_generation
+- native_inverse_folding
+- native_refolding
+entry_point: boltzgen
+model_repository:
+  name: boltzgen/boltzgen-1
+  revision: c1be29e1f82ffcc72264f64b993c43fb4e0d17f0
+checkpoints:
+  backbone_generation:
+  - boltzgen1_diverse.ckpt
+  - boltzgen1_adherence.ckpt
+  native_inverse_folding: boltzgen1_ifold.ckpt
+  native_refolding: boltz2_conf_final.ckpt
+inference_data:
+  repository: boltzgen/inference-data
+  revision: c3d36fd276e9caf098c75d4113c6d5eb320b1a4c
+  file: mols.zip

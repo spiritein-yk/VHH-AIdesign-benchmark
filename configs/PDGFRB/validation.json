@@ -1,0 +1,245 @@
+{
+  "target_length": 188,
+  "hotspot_positions_1based": [
+    118,
+    172,
+    173
+  ],
+  "hotspot_residues": [
+    "V",
+    "S",
+    "V"
+  ],
+  "scaffolds": {
+    "7EOW": {
+      "scaffold_length": 128,
+      "cdr_ranges_1based": [
+        [
+          26,
+          33
+        ],
+        [
+          51,
+          58
+        ],
+        [
+          97,
+          117
+        ]
+      ],
+      "cdr_sequences": [
+        "GRTFSYNP",
+        "ISRTGGST",
+        "AAAGVRAEDGRVRTLPSEYTF"
+      ],
+      "variable_loop_length_ranges": [
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          15,
+          28
+        ]
+      ],
+      "iggm_cdr_lengths": [
+        8,
+        8,
+        21
+      ]
+    },
+    "3EAK": {
+      "scaffold_length": 127,
+      "cdr_ranges_1based": [
+        [
+          26,
+          36
+        ],
+        [
+          54,
+          61
+        ],
+        [
+          100,
+          117
+        ]
+      ],
+      "cdr_sequences": [
+        "GGSEYSYSTFS",
+        "IASMGGLT",
+        "AAVRGYFMRLPSSHNFRY"
+      ],
+      "variable_loop_length_ranges": [
+        [
+          9,
+          13
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          25
+        ]
+      ],
+      "iggm_cdr_lengths": [
+        11,
+        8,
+        18
+      ]
+    },
+    "8COH": {
+      "scaffold_length": 126,
+      "cdr_ranges_1based": [
+        [
+          26,
+          33
+        ],
+        [
+          51,
+          58
+        ],
+        [
+          97,
+          115
+        ]
+      ],
+      "cdr_sequences": [
+        "GRAHSDYA",
+        "IGWSGGDT",
+        "AARQGQYIYSSMRSDSYDY"
+      ],
+      "variable_loop_length_ranges": [
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          13,
+          26
+        ]
+      ],
+      "iggm_cdr_lengths": [
+        8,
+        8,
+        19
+      ]
+    },
+    "8Z8V": {
+      "scaffold_length": 115,
+      "cdr_ranges_1based": [
+        [
+          26,
+          33
+        ],
+        [
+          51,
+          58
+        ],
+        [
+          97,
+          104
+        ]
+      ],
+      "cdr_sequences": [
+        "GFTFSSFG",
+        "ISGSGSDT",
+        "TIGGSLSR"
+      ],
+      "variable_loop_length_ranges": [
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          2,
+          15
+        ]
+      ],
+      "iggm_cdr_lengths": [
+        8,
+        8,
+        8
+      ]
+    }
+  },
+  "validation": "source sequence, source residue identities and coordinates checked; model inference not run",
+  "local_input_checks": {
+    "atom_identifiers_unique": true,
+    "N_CA_C_O_complete": true,
+    "chain_variants_coordinates_identical": true,
+    "ppiflow_remaining_atoms_unchanged": true,
+    "cdr_masks_and_labels_verified": true,
+    "relative_input_paths_exist": true
+  },
+  "boltzgen_actual_parser": [
+    {
+      "file": "common/PDGFRB.pdb",
+      "chains": [
+        {
+          "chain": "B",
+          "length": 188,
+          "present": 188,
+          "hotspots": [
+            "VAL",
+            "SER",
+            "VAL"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "common/3EAK_A.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 127,
+          "present": 127
+        }
+      ]
+    },
+    {
+      "file": "common/8COH_A.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 126,
+          "present": 126
+        }
+      ]
+    },
+    {
+      "file": "common/7EOW_A.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 128,
+          "present": 128
+        }
+      ]
+    },
+    {
+      "file": "common/8Z8V_A.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 115,
+          "present": 115
+        }
+      ]
+    }
+  ]
+}

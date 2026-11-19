@@ -1,0 +1,9 @@
+benchmark_target: PDGFRB
+software: silent_tools
+stages:
+- binary_silent_conversion
+runtime:
+  source_backbones:
+  - BoltzGen
+  - PPIFlow
+  pyrosetta: 2026.03+releasequarterly.5e498f1409c68ade56c8ce5842bf79e1b02e8db4

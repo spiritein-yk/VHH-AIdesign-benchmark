@@ -1,0 +1,10 @@
+benchmark_target: PDGFRB
+software: PPIFlow
+commit: 920975e42fcaae80f6f10f7b9c21a4d57058d673
+stages:
+- backbone_generation
+entry_point: sample_antibody_nanobody.py
+runtime:
+  launcher_cuda_toolkit: '13.2'
+checkpoints:
+  nanobody: nanobody.ckpt

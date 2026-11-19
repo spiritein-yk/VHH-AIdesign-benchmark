@@ -1,0 +1,10 @@
+benchmark_target: PDGFRB
+software: AlphaFold 3
+version: 3.0.0
+stages:
+- af3_structure_evaluation
+entry_point: run_alphafold.py
+runtime:
+  launcher_module: alphafold3/3.0.0
+databases:
+  pdb_archive: pdb_2022_09_28_mmcif_files.tar

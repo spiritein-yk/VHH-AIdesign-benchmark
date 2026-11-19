@@ -1,0 +1,13 @@
+benchmark_target: PDGFRB
+software: AlphaFold2 initial guess
+stages:
+- af2_structure_evaluation
+runtime:
+  environment_manager: conda
+  launcher_cuda_toolkit_when_available: '11.8'
+  dependencies:
+  - PyRosetta
+  - silent_tools
+historical_script:
+  file: predict_af2.py
+model: model_3_multimer_v2

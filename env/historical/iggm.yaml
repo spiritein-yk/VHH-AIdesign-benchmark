@@ -1,0 +1,9 @@
+benchmark_target: PDGFRB
+software: IgGM
+commit: 06abc563b3fc8c7ea020543add16b69b6f8a1c8d
+stages:
+- backbone_generation
+entry_point: design.py
+historical_launcher: launch_iggm.py
+runtime:
+  environment_manager: conda

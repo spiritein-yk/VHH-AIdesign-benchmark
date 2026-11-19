@@ -1,0 +1,258 @@
+{
+  "target_length": 195,
+  "hotspot_positions_1based": [
+    42,
+    43,
+    64,
+    65,
+    66,
+    123,
+    176,
+    177
+  ],
+  "hotspot_residues": [
+    "V",
+    "E",
+    "L",
+    "L",
+    "I",
+    "Y",
+    "Y",
+    "F"
+  ],
+  "scaffolds": {
+    "3EAK": {
+      "scaffold_length": 127,
+      "cdr_ranges_1based": [
+        [
+          26,
+          36
+        ],
+        [
+          54,
+          61
+        ],
+        [
+          100,
+          117
+        ]
+      ],
+      "cdr_sequences": [
+        "GGSEYSYSTFS",
+        "IASMGGLT",
+        "AAVRGYFMRLPSSHNFRY"
+      ],
+      "variable_loop_length_ranges": [
+        [
+          9,
+          13
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          25
+        ]
+      ],
+      "iggm_cdr_lengths": [
+        11,
+        8,
+        18
+      ]
+    },
+    "5jds": {
+      "scaffold_length": 127,
+      "cdr_ranges_1based": [
+        [
+          26,
+          33
+        ],
+        [
+          51,
+          58
+        ],
+        [
+          97,
+          117
+        ]
+      ],
+      "cdr_sequences": [
+        "GKMSSRRC",
+        "LLTTSGST",
+        "AADSFEDPTCTLVTSSGAFQY"
+      ],
+      "variable_loop_length_ranges": [
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          15,
+          28
+        ]
+      ],
+      "iggm_cdr_lengths": [
+        8,
+        8,
+        21
+      ]
+    },
+    "CAMV_U0058": {
+      "scaffold_length": 132,
+      "cdr_ranges_1based": [
+        [
+          26,
+          33
+        ],
+        [
+          51,
+          58
+        ],
+        [
+          97,
+          121
+        ]
+      ],
+      "cdr_sequences": [
+        "GFTLDYYA",
+        "ISSSGGST",
+        "AADYMEPPVQAMCVMTPVLLYEYNY"
+      ],
+      "variable_loop_length_ranges": [
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          19,
+          32
+        ]
+      ],
+      "iggm_cdr_lengths": [
+        8,
+        8,
+        25
+      ]
+    },
+    "V7R-2E9": {
+      "scaffold_length": 118,
+      "cdr_ranges_1based": [
+        [
+          26,
+          33
+        ],
+        [
+          51,
+          58
+        ],
+        [
+          97,
+          107
+        ]
+      ],
+      "cdr_sequences": [
+        "ISTFSSDA",
+        "IGWSGAVT",
+        "AEDYDTDVWQY"
+      ],
+      "variable_loop_length_ranges": [
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          5,
+          18
+        ]
+      ],
+      "iggm_cdr_lengths": [
+        8,
+        8,
+        11
+      ]
+    }
+  },
+  "validation": "source sequence, source residue identities and coordinates checked; model inference not run",
+  "local_input_checks": {
+    "atom_identifiers_unique": true,
+    "N_CA_C_O_complete": true,
+    "chain_variants_coordinates_identical": true,
+    "ppiflow_remaining_atoms_unchanged": true
+  },
+  "boltzgen_actual_parser": [
+    {
+      "file": "common/IL7RA.pdb",
+      "chains": [
+        {
+          "chain": "B",
+          "length": 195,
+          "present": 195,
+          "hotspots": [
+            "VAL",
+            "GLU",
+            "LEU",
+            "LEU",
+            "ILE",
+            "TYR",
+            "TYR",
+            "PHE"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "common/5jds_A.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 127,
+          "present": 127
+        }
+      ]
+    },
+    {
+      "file": "common/V7R-2E9_A.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 118,
+          "present": 118
+        }
+      ]
+    },
+    {
+      "file": "common/3EAK_A.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 127,
+          "present": 127
+        }
+      ]
+    },
+    {
+      "file": "common/CAMV_U0058_A.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 132,
+          "present": 132
+        }
+      ]
+    }
+  ]
+}

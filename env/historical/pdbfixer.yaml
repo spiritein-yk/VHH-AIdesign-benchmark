@@ -1,0 +1,10 @@
+benchmark_target: PDGFRB
+software: PDBFixer
+stages:
+- iggm_backbone_repair
+historical_script:
+  file: fix_pdb.py
+runtime:
+  device: CPU
+  dependencies:
+  - OpenMM
